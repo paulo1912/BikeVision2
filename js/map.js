@@ -11,6 +11,7 @@ function moveHandler(){
 	var rb = coord.getSouthEast();
 	
 	var bbox = [rb.lat,lt.lng,lt.lat,rb.lng];
+	console.log('BBOX:'+bbox);
 	requestData(bbox);
 }
 function requestcycloway(){
